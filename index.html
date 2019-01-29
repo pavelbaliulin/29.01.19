@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   function _join(arr, separator) {
+      //     var buffer = "";
+      //     for (let i = 0; i < arr.length - 1; i++) {
+      //       buffer += `${a[i]}${separator}`;
+      //     }
+      //     buffer += arr.length > 0 ? arr[arr.length - 1] : ``;
+      //     return buffer;
+      //   }
+      //   function _spit(str, separator) {
+      //     var arr = [``];
+      //     let i = 0;
+      //     let index = 0;
+      //     while (i < str.length) {
+      //       let buffer = ``;
+      //       for (var j = 0; j < str.length; j) {}
+      //       if (buffer === separator) {
+      //         arr[arr.length] = "";
+      //         index++;
+      //       } else {
+      //         arr[index] += buffer;
+      //       }
+      //       //   i +=;
+      //     }
+      //     return arr;
+      //   }
+      //   var a = [1, 211, 311];
+      //   var separator = ",,";
+      //   var strRes = _join(a, separator);
+      //   console.log(strRes.split(","));
+      //   console.log(_spit(strRes, separator));
+      //массив
+
+      //   function randomArr(size) {
+      //     size = size || 100;
+      //     var randNumber = [];
+      //     for (var i = 0; i < size; i++) {
+      //       randNumber[i] = Math.round(Math.random() * 100);
+      //     }
+      //     return randNumber;
+      //   }
+      //   var a = randomArr(10);
+      //   console.log(a);
+      //massiv
+      //   add(1 , 2);
+      //   var sum = add(1)(2);
+      //   var sum = first + second;
+      //   function add{
+      //   for (var i = 0; sum < 0; i++){
+
+      //   }
+      //   return len;
+      //   console.log(sum);
+      //asdasdasdasdasd
+      //   function log() {
+      //     console.log(123);
+      //   }
+
+      //   setTimeout(log, 1000);
+      //   setInterval(log, 1000);
+      //   function log(index) {
+      //     return function() {
+      //       index--;
+      //       if (index <= 0) {
+      //         clearInterval(timerId2);
+      //       }
+      //     };
+      //   }
+      //   let tineId2 = setInterval(log(10), 1000);
+      function randomArr(size) {
+        size = size || 100;
+        var randNumber = [];
+        for (var i = 0; i < size; i++) {
+          randNumber[i] = Math.round(Math.random() * 100);
+        }
+        return randNumber;
+      }
+      var a = randomArr(10);
+      console.log(a);
+      var arr = randArr(10);
+      console.log(arr);
+
+      function min(data) {
+        var minNum = data[0];
+        for (var i = 0; i < data.length; i++) {
+          minNum = minNum > data[i] ? data[i] : minNum;
+        }
+        return minNum;
+      }
+      console.log(max(arr));
+      console.log(min(arr));
+    </script>
+  </body>
+</html>
